@@ -1,0 +1,11 @@
+/AngularJsProject/nbproject/private/
+logs/*
+!.gitkeep
+node_modules/
+bower_components/
+tmp
+.DS_Store
+.idea
+/AngularJSPhoneCat/nbproject/private/
+/AngularBlogProject/nbproject/private/
+/HeadFirstJSTutorial/nbproject/private/
