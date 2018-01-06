@@ -3,6 +3,7 @@
     <head>
         <title>Jump for Joy</title>
         <link rel="stylesheet" href="../../css/jumpForJoy/jumpForJoy.css">
+        <link content="Hello World" href="images/jump1.jpg">
     </head>
     <body>
     <div id="header">
@@ -14,18 +15,8 @@
         <div class="guess_box"><img src="images/jump3.jpg"></div>
         <div class="guess_box"><img src="images/jump4.jpg"></div>
     </div>
-    <script src="../../libs/jquery-1.10.2.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(".guess_box").click(function () {
-                $(".guess_box p").remove();
-                var discount = Math.floor((Math.random() * 5) + 5);
-                var discount_msg = "<p>Your discount is " + discount + "%</p>";
-                // alert("You clicked me");
-                $(this).append(discount_msg);
-            }); //end click function
-        }); // end ready function
-        /** pg125 */
-    </script>
+    <script src="../../libs/jquery-1.5.2.min.js"></script>
+    <script src="../../js/jumpForJoy/jumpForJoyGlobalVariables.js"></script>
+    <script src="../../js/jumpForJoy/index.js"></script>
     </body>
 </html>
